@@ -2,7 +2,7 @@ NAME
     Task::BeLike::GENEHACK - individuality via conformity
 
 VERSION
-    version 0.1
+    version 0.1.1
 
 TASK CONTENTS
   Modules I use
@@ -55,7 +55,7 @@ TASK CONTENTS
    YAML
    autodie
    local::lib
-   namespace::autospace
+   namespace::autoclean
 AUTHOR
     John SJ Anderson <genehack@genehack.org>
 

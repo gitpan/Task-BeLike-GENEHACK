@@ -70,7 +70,7 @@
             "YAML" : 0,
             "autodie" : 0,
             "local::lib" : 0,
-            "namespace::autospace" : 0,
+            "namespace::autoclean" : 0,
             "perl" : "5.010"
          }
       },
@@ -94,7 +94,7 @@
          "url" : "git://github.com/genehack/task-belike-genehack"
       }
    },
-   "version" : "0.1",
+   "version" : "0.1.1",
    "x_Dist_Zilla" : {
       "plugins" : [
          {

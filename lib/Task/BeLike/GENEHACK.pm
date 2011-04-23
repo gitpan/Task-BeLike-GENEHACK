@@ -1,6 +1,6 @@
 package Task::BeLike::GENEHACK;
 BEGIN {
-  $Task::BeLike::GENEHACK::VERSION = '0.1';
+  $Task::BeLike::GENEHACK::VERSION = '0.1.1';
 }
 BEGIN {
   $Task::BeLike::GENEHACK::AUTHORITY = 'cpan:GENEHACK';
@@ -23,7 +23,7 @@ Task::BeLike::GENEHACK - individuality via conformity
 
 =head1 VERSION
 
-version 0.1
+version 0.1.1
 
 =head1 TASK CONTENTS
 
@@ -127,7 +127,7 @@ version 0.1
 
 =head3 L<local::lib>
 
-=head3 L<namespace::autospace>
+=head3 L<namespace::autoclean>
 
 =head1 AUTHOR
 

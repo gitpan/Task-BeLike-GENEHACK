@@ -73,9 +73,9 @@ my %WriteMakefileArgs = (
     'YAML' => '0',
     'autodie' => '0',
     'local::lib' => '0',
-    'namespace::autospace' => '0'
+    'namespace::autoclean' => '0'
   },
-  'VERSION' => '0.1',
+  'VERSION' => '0.1.1',
   'test' => {
     'TESTS' => 't/*.t'
   }
