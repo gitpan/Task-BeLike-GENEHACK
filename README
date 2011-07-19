@@ -2,7 +2,7 @@ NAME
     Task::BeLike::GENEHACK - individuality via conformity
 
 VERSION
-    version 0.1.1
+    version 0.2
 
 TASK CONTENTS
   Modules I use
@@ -14,6 +14,10 @@ TASK CONTENTS
    App::cpanminus
    App::cpanoutdated
    App::perlbrew
+   Audio::M4P::QuickTime
+   Bash::Completion
+   Bash::Completion::Plugins::cpanm
+   Bash::Completion::Plugins::perlbrew
    CPAN::Mini
    DBD::SQLite
    Data::Dump::Streamer
@@ -23,15 +27,18 @@ TASK CONTENTS
    Dist::Zilla::App::Command::cover
    Dist::Zilla::PluginBundle::GENEHACK
    File::Slurp
+   Imager
    List::MoreUtils
    Modern::Perl
    Module::CoreList
    Module::Install
    Module::Which
+   Moose
    MooseX::App::Cmd
    MooseX::Declare
    MooseX::amine
    Perl::Tidy
+   Pod::Coverage::TrustPod
    Task::Catalyst
    Task::Kensho
    Task::Kensho::CLI
@@ -48,6 +55,7 @@ TASK CONTENTS
    Test::Most
    Test::Pod
    Test::Pod::Coverage
+   Text::FindIndent
    Try::Tiny
    XML::LibXML
    XML::Simple

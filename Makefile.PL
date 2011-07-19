@@ -2,9 +2,9 @@
 use strict;
 use warnings;
 
-BEGIN { require 5.010; }
+use 5.010;
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
@@ -17,7 +17,7 @@ my %WriteMakefileArgs = (
     'Test::More' => '0'
   },
   'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+    'ExtUtils::MakeMaker' => '6.30'
   },
   'DISTNAME' => 'Task-BeLike-GENEHACK',
   'EXE_FILES' => [],
@@ -32,6 +32,10 @@ my %WriteMakefileArgs = (
     'App::cpanminus' => '0',
     'App::cpanoutdated' => '0',
     'App::perlbrew' => '0',
+    'Audio::M4P::QuickTime' => '0',
+    'Bash::Completion' => '0',
+    'Bash::Completion::Plugins::cpanm' => '0',
+    'Bash::Completion::Plugins::perlbrew' => '0',
     'CPAN::Mini' => '0',
     'DBD::SQLite' => '0',
     'Data::Dump::Streamer' => '0',
@@ -41,15 +45,18 @@ my %WriteMakefileArgs = (
     'Dist::Zilla::App::Command::cover' => '0',
     'Dist::Zilla::PluginBundle::GENEHACK' => '0',
     'File::Slurp' => '0',
+    'Imager' => '0',
     'List::MoreUtils' => '0',
     'Modern::Perl' => '0',
     'Module::CoreList' => '0',
     'Module::Install' => '0',
     'Module::Which' => '0',
+    'Moose' => '0',
     'MooseX::App::Cmd' => '0',
     'MooseX::Declare' => '0',
     'MooseX::amine' => '0',
     'Perl::Tidy' => '0',
+    'Pod::Coverage::TrustPod' => '0',
     'Task::Catalyst' => '0',
     'Task::Kensho' => '0',
     'Task::Kensho::CLI' => '0',
@@ -66,6 +73,7 @@ my %WriteMakefileArgs = (
     'Test::Most' => '0',
     'Test::Pod' => '0',
     'Test::Pod::Coverage' => '0',
+    'Text::FindIndent' => '0',
     'Try::Tiny' => '0',
     'XML::LibXML' => '0',
     'XML::Simple' => '0',
@@ -75,7 +83,7 @@ my %WriteMakefileArgs = (
     'local::lib' => '0',
     'namespace::autoclean' => '0'
   },
-  'VERSION' => '0.1.1',
+  'VERSION' => '0.2',
   'test' => {
     'TESTS' => 't/*.t'
   }

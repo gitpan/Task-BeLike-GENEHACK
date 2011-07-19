@@ -1,6 +1,6 @@
 package Task::BeLike::GENEHACK;
 BEGIN {
-  $Task::BeLike::GENEHACK::VERSION = '0.1.1';
+  $Task::BeLike::GENEHACK::VERSION = '0.2';
 }
 BEGIN {
   $Task::BeLike::GENEHACK::AUTHORITY = 'cpan:GENEHACK';
@@ -23,7 +23,7 @@ Task::BeLike::GENEHACK - individuality via conformity
 
 =head1 VERSION
 
-version 0.1.1
+version 0.2
 
 =head1 TASK CONTENTS
 
@@ -45,6 +45,14 @@ version 0.1.1
 
 =head3 L<App::perlbrew>
 
+=head3 L<Audio::M4P::QuickTime>
+
+=head3 L<Bash::Completion>
+
+=head3 L<Bash::Completion::Plugins::cpanm>
+
+=head3 L<Bash::Completion::Plugins::perlbrew>
+
 =head3 L<CPAN::Mini>
 
 =head3 L<DBD::SQLite>
@@ -63,6 +71,8 @@ version 0.1.1
 
 =head3 L<File::Slurp>
 
+=head3 L<Imager>
+
 =head3 L<List::MoreUtils>
 
 =head3 L<Modern::Perl>
@@ -73,6 +83,8 @@ version 0.1.1
 
 =head3 L<Module::Which>
 
+=head3 L<Moose>
+
 =head3 L<MooseX::App::Cmd>
 
 =head3 L<MooseX::Declare>
@@ -80,6 +92,8 @@ version 0.1.1
 =head3 L<MooseX::amine>
 
 =head3 L<Perl::Tidy>
+
+=head3 L<Pod::Coverage::TrustPod>
 
 =head3 L<Task::Catalyst>
 
@@ -112,6 +126,8 @@ version 0.1.1
 =head3 L<Test::Pod>
 
 =head3 L<Test::Pod::Coverage>
+
+=head3 L<Text::FindIndent>
 
 =head3 L<Try::Tiny>
 
